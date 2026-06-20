@@ -1,0 +1,8 @@
+# Disable Streamlit's source file watcher. Without this, the watcher walks every
+# loaded module to set up hot-reload; because `transformers` is imported it tries
+# to import hundreds of model submodules (which fail on optional torchvision),
+# spamming the log and stalling the first page render. We don't need hot-reload
+# for a deployed app.
+[server]
+fileWatcherType = "none"
+headless = true
