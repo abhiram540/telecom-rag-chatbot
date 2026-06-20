@@ -3,7 +3,10 @@
 A Retrieval-Augmented Generation (RAG) chatbot that answers Tier-1 telecom
 support questions (connectivity, billing, SIM/eSIM, roaming, voice, account)
 grounded **only** in NovaCell's verified knowledge — never inventing prices or
-policies. Built per [PRD.md](PRD.md).
+policies.
+
+<img width="1907" height="857" alt="image" src="https://github.com/user-attachments/assets/2ec56012-4c5c-40aa-82a4-a98d159da1aa" />
+
 
 ## How it works
 
